@@ -304,16 +304,17 @@ environment
       <div class="container">
         <div class="row">
 
+          <!-- Home LLM Project -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="music streaming app" src="/assets/img/project-music-player.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Music Player Web-App<i
+                <span class="card-title activator teal-text hoverline">Smart Home Automation with LLM<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A music streaming web app based on Django
+                  A fine-tuned large language model running on Raspberry Pi 5 for efficient device interaction management.
                 </p>
               </div>
               <div class="card-reveal">
@@ -322,15 +323,15 @@ environment
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, AWS S3, Heroku</li>
-                  <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
-                  <li>Search and filter songs based on language and singer.</li>
-                  <li>Create multiple playlists and add/remove songs to/from playlist.</li>
-                  <li>Scroll through recently played/viewed songs.</li>
+                  <b>Tools:</b> Raspberry Pi 5, Llama.cpp, Python, Hugging Face
+                  <li>Fine-tune a 1 billion parameter LLM to optimize smart home automation.</li>
+                  <li>Create a synthetic dataset replicating home device interactions.</li>
+                  <li>Evaluate and compare standard and fine-tuned models to enhance smart home management.</li>
+                  <li>Utilize low-power hardware (Raspberry Pi 5) for real-time smart home automation deployment.</li>
 
 
                 </ul>
-                <div class="card-action">
+                <!-- <div class="card-action">
                   <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
                     data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
@@ -339,21 +340,22 @@ environment
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
 
+          <!-- Brain Tumor Detection Project -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="quiz app" src="/assets/img/project-quizup-logo-1.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Quiz Web-App<i
+                <span class="card-title activator teal-text hoverline">Brain Tumor Detection<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A quiz playing web app based on Django
+                  A CNN model for brain tumor classification, analyzing the impact of dataset poisoning on performance
                 </p>
               </div>
               <div class="card-reveal">
@@ -362,17 +364,18 @@ environment
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, Heroku</li>
-                  <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
-                  <li>Play Quiz and see the leaderboard</li>
+                  <b>Tools:</b> Python, TensorFlow, CNN, NumPy, Matplotlib
+                  <li>Built a CNN model to classify brain tumors from MRI images.</li>
+                  <li>Executed a label flipping attack to simulate dataset poisoning and assess model vulnerability.</li>
+                  <li>Analyzed performance using metrics like accuracy and loss to understand the impact of clean vs. poisoned datasets.</li>
 
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit " href="https://quiz-up-app.herokuapp.com/" target="_blank" data-position="top"
+                  <!-- <a aria-label="Visit " href="https://quiz-up-app.herokuapp.com/" target="_blank" data-position="top"
                     data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/QuizUp"
+                      class="fa fa-external-link"></i></a> -->
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/KSruthiVel/Brain-Tumor-Detection"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
@@ -381,42 +384,6 @@ environment
             </div>
           </div>
 
-          <!-- 1. Django Project -->
-          <!-- <div class="col s12 m6 l6">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="django web app" src="/assets/img/project-library-logo.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Local Library Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A web-app that creates an online catalog for a small local library, where users can browse available books and manage their accounts.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, Bootstrap, SQLite, Django, Heroku</li>
-                  <li>Users can view list and detail information for books and authors.</li>
-                  <li>Admin users can create and manage models.</li>
-                  <li>Librarians can renew reserved books.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://django-local-lib.herokuapp.com" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/django-local-library"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
 
           <!-- Flask Project -->
           <div class="col s12 m6 l4">
@@ -426,10 +393,10 @@ environment
                 style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Blog Web-App<i
+                <span class="card-title activator teal-text hoverline">Analysis of 911 Calls for Detroit and New York City<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A simple and extensible blog web-app based on Flask.
+                  Analyzed 911 call patterns to optimize emergency response times and resource allocation using predictive modeling.
                 </p>
               </div>
               <div class="card-reveal">
@@ -438,18 +405,19 @@ environment
                 <span class="card-title teal-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> HTML, CSS, Bootstrap, Flask, SQLAlchemy, Postgresql, Python</li>
-                  <li>Users can view posts and contact the admin via Contact Page.</li>
-                  <li>Admin can Add, Delete, Update posts.</li>
+                  <li><b>Tools:</b>  Python, SARIMAX, XGBoost, DBSCAN, K-Means, Pandas, NumPy, Matplotlib</li>
+                  <li>Analyzed 911 call data to identify emergency hotspots and improve public safety.</li>
+                  <li>Implemented predictive models (SARIMAX, XGBoost, DBSCAN, K-Means) to forecast emergency incidents.</li>
+                  <li>Provided insights to optimize emergency response times and improve resource distribution.</li>
 
 
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank" data-position="top"
+                  <!-- <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank" data-position="top"
                     data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/flask-blog"
+                      class="fa fa-external-link"></i></a> -->
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/KSruthiVel/Analysis-of-911-Calls-for-Detroit-and-New-York-City"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
