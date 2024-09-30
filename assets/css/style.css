@@ -376,10 +376,12 @@ h3 {
 
 .card .role {
   font-size: 1.25rem;
-  position: absolute;
-  right: 38px;
-  top: 35px;
+  position: relative; /* Changed from absolute */
+  right: auto; /* Reset to auto */
+  top: initial; /* Reset to initial */
+  margin-bottom: 10px; /* Add spacing to align with department name */
 }
+
 
 .card li a {
   margin-right: 0;
@@ -648,7 +650,7 @@ small {
   }
   .card .role {
     position: relative;
-    right: initial;
+    right: auto;
     top: initial;
   }
 }
